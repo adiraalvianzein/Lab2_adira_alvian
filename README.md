@@ -25,7 +25,7 @@ Tujuan dari praktikum ini adalah untuk memperkenalkan dasar-dasar CSS kepada mah
 
 ### Langkah 1: Membuat Dokumen HTML
 Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
-
+```index html.html 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,12 +49,12 @@ Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
     </div>
 </body>
 </html>
+```
 
 
 ### Langkah 2: Menambahkan CSS Internal
 Selanjutnya, tambahkan CSS internal di dalam tag <head>:
-
-html
+```
 <style>
     body {
         font-family: 'Open Sans', sans-serif;
@@ -72,17 +72,19 @@ html
         color: #6d6a6b;
     }
 </style>
+```
 
 
 ### Langkah 3: Menambahkan CSS Inline
 CSS inline diterapkan langsung di elemen <p>:
-
-html
+```html
 <p style="text-align: center; color: #ccd8e4;">Teks ini diatur menggunakan CSS inline.</p>
+```
 
 
 ### Langkah 4: Menambahkan CSS Eksternal
 Buat file eksternal (assets/css/style.css) dan hubungkan ke dokumen HTML:
+```html
 
 html
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -106,12 +108,12 @@ nav a {
 nav a:hover {
     background: #0B6B3A;
 }
+```
 
 
 ### Langkah 5: Menggunakan Selector CSS
 Gunakan selector CSS seperti ID dan class:
-
-html
+```html
 #intro {
     background: #418fb1;
     padding: 10px;
@@ -126,6 +128,7 @@ html
 .btn-primary {
     background: #E42A42;
 }
+```
 
 ---
 ## Screenshot
@@ -151,20 +154,22 @@ html
 ---
 ## Hasil Eksperimen
 1. **Perbedaan Selector Elemen (h1 {...}) vs. Selector ID (#intro h1 {...}):**
-   - Selector elemen menerapkan gaya ke semua elemen <h1>, sedangkan selector ID hanya akan mempengaruhi elemen <h1> di dalam elemen dengan ID #intro.
+    Selector elemen menerapkan gaya ke semua elemen  sedangkan selector ID hanya akan mempengaruhi elemen  di dalam elemen dengan ID.
 
 2. *Urutan Prioritas CSS Internal, Eksternal, dan Inline:*
    - Jika ketiga jenis CSS ini diterapkan pada elemen yang sama, *inline CSS* memiliki prioritas tertinggi, diikuti *CSS eksternal, dan terakhir **CSS internal*. Misalnya:
 
-html
-<h1 style="color: red;">Judul ini akan berwarna merah karena CSS inline.</h1>
+```html
+<h1> style="color: red;">Judul ini akan berwarna merah karena CSS inline.</h1>
+```
 
 
 3. *Prioritas Selector ID dan Class:*
    - Selector ID memiliki prioritas lebih tinggi dibandingkan selector class, karena ID lebih spesifik.
 
-html
-<p id="paragraf-1" class="text-paragraf">Gaya teks akan mengikuti selector ID.</p>
+```html
+<p> id="paragraf-1" class="text-paragraf">Gaya teks akan mengikuti selector ID.</p>
+```
 
 
 ## Kesimpulan
