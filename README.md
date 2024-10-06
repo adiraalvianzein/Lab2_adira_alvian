@@ -25,7 +25,7 @@ Tujuan dari praktikum ini adalah untuk memperkenalkan dasar-dasar CSS kepada mah
 
 ### Langkah 1: Membuat Dokumen HTML
 Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
-'
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
