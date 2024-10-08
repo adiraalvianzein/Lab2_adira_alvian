@@ -54,7 +54,7 @@ Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
 
 ### Langkah 2: Menambahkan CSS Internal
 Selanjutnya, tambahkan CSS internal di dalam tag <head>:
-```html
+```css
 <style>
     body {
         font-family: 'Open Sans', sans-serif;
@@ -77,14 +77,14 @@ Selanjutnya, tambahkan CSS internal di dalam tag <head>:
 
 ### Langkah 3: Menambahkan CSS Inline
 CSS inline diterapkan langsung di elemen <p>:
-```html
+```css
 <p style="text-align: center; color: #ccd8e4;">Teks ini diatur menggunakan CSS inline.</p>
 ```
 
 
 ### Langkah 4: Menambahkan CSS Eksternal
 Buat file eksternal (assets/css/style.css) dan hubungkan ke dokumen HTML:
-```html
+```css
 
 html
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -113,7 +113,7 @@ nav a:hover {
 
 ### Langkah 5: Menggunakan Selector CSS
 Gunakan selector CSS seperti ID dan class:
-```html
+```css
 #intro {
     background: #418fb1;
     padding: 10px;
