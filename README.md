@@ -25,7 +25,7 @@ Tujuan dari praktikum ini adalah untuk memperkenalkan dasar-dasar CSS kepada mah
 
 ### Langkah 1: Membuat Dokumen HTML
 Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
-```index html.html 
+```html 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +54,7 @@ Langkah pertama adalah membuat struktur dasar HTML seperti berikut:
 
 ### Langkah 2: Menambahkan CSS Internal
 Selanjutnya, tambahkan CSS internal di dalam tag <head>:
-```
+```html
 <style>
     body {
         font-family: 'Open Sans', sans-serif;
